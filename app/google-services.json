@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "804154239449",
+    "firebase_url": "https://amenity-1487338376247.firebaseio.com",
+    "project_id": "amenity-1487338376247",
+    "storage_bucket": "amenity-1487338376247.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:804154239449:android:f75f464cf1f77f87",
+        "android_client_info": {
+          "package_name": "com.amenity.amenity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "804154239449-dl57uakvh5j3c0emef73v5ud4nitdi34.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.amenity.amenity",
+            "certificate_hash": "EF362AE16160FFE84E11BB36F2F28BED11ED3EBF"
+          }
+        },
+        {
+          "client_id": "804154239449-rlk64d7e4b8olt1ke5akn4jl4jn8f1cl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqUh6TFDtSVldC_JBDZMxQ09zky--fDuU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "804154239449-rlk64d7e4b8olt1ke5akn4jl4jn8f1cl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
