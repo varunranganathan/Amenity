@@ -123,7 +123,7 @@ public class InputActivity extends AppCompatActivity {
                     //ArrayList<Integer> recv = new ArrayList<Integer>();
                     //recv.add(0);
                     Date date = Calendar.getInstance().getTime();
-                    AmenityMarker amenityMarker = new AmenityMarker(latitude,longitude,resources,need,recv,message.getEditableText().toString(), date, FirebaseAuth.getInstance().getCurrentUser().getDisplayName(),phone.getEditableText().toString());
+                    AmenityMarker amenityMarker = new AmenityMarker(latitude,longitude,resources,need,recv,message.getEditableText().toString(), date, FirebaseAuth.getInstance().getCurrentUser().getDisplayName(),phone.getEditableText().toString(), FirebaseAuth.getInstance().getCurrentUser().getUid(),true);
                     DatabaseReference ref = FirebaseDatabase.getInstance().getReference("markers").push();
                     ref.setValue(amenityMarker);
                     String k = ref.getKey();
@@ -196,7 +196,7 @@ public class InputActivity extends AppCompatActivity {
                     //ArrayList<Integer> recv = new ArrayList<Integer>();
                     //recv.add(0);
                     Date date = Calendar.getInstance().getTime();
-                    AmenityMarker amenityMarker = new AmenityMarker(latitude, longitude, resources, need, recv, message.getEditableText().toString(), date, FirebaseAuth.getInstance().getCurrentUser().getDisplayName(), phone.getEditableText().toString());
+                    AmenityMarker amenityMarker = new AmenityMarker(latitude, longitude, resources, need, recv, message.getEditableText().toString(), date, FirebaseAuth.getInstance().getCurrentUser().getDisplayName(), phone.getEditableText().toString(), FirebaseAuth.getInstance().getCurrentUser().getUid(),true);
                     //DatabaseReference ref = FirebaseDatabase.getInstance().getReference("markers").push();
                     //ref.setValue(amenityMarker);
                     //String k = ref.getKey();

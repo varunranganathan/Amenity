@@ -17,12 +17,14 @@ public class AmenityMarker {
     public ArrayList<Integer> recv;
     public String message;
     public String userName;
+    public String uid;
     public Date date;
     public String phone;
+    public Boolean forMe;
     public AmenityMarker(){
 
     }
-    public AmenityMarker(double lat, double lon, ArrayList<String> res, ArrayList<Integer> need, ArrayList<Integer> recv, String mes, Date dat, String name, String number){
+    public AmenityMarker(double lat, double lon, ArrayList<String> res, ArrayList<Integer> need, ArrayList<Integer> recv, String mes, Date dat, String name, String uid, String number, Boolean forMe){
         latitude = lat;
         longitude = lon;
         resources = res;
@@ -32,5 +34,7 @@ public class AmenityMarker {
         userName = name;
         date = dat;
         phone = number;
+        this.uid = uid;
+        this.forMe = forMe;
     }
 }

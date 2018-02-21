@@ -48,7 +48,8 @@
         android:text="make a request"
         android:layout_above="@+id/available"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        />
 
 
 </RelativeLayout>
